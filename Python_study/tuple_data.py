@@ -23,16 +23,16 @@ t6 = tuple_1 + t2
 t7 = t3 * 3
 
 t3 = (1, 2, "Hello")
-# print(t3[2])
-# print(t3[0:2])
-# print(len(t3))
+print(t3[2])
+print(t3[0:2])
+print(len(t3))
 
 # t5 = (1, 2, (3, 4, 5))
 # print(t5[2][1])
 
-t8 = (5, 3, 1, 4, 2)
-for i in t8:
-    print(i)
+# t8 = (5, 3, 1, 4, 2)
+# for i in t8:
+#     print(i)
 
 
 
