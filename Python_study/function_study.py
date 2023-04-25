@@ -285,7 +285,7 @@ def test_func5():
 # 정수를 함수에 입력하여
 # 호출하면 해당 정수 줄의
 # 별을 화면에 출력한다.
-# 함수 이름 : print_starts
+# 함수 이름 : print_stars
 # 파라미터 : n
 # 반환값 : None
 """
@@ -295,11 +295,12 @@ def test_func5():
 ***
 ****
 """
-# def print_stars(n):
-#     for i in range(n): # 0 ~ n-1
-#         for j in range(i+1): # 0 ~ i
-#             print("*", end="")
-#         print()
+def print_stars(n):
+    for i in range(n): # 0 ~ n-1
+        for j in range(i+1): # 0 ~ i
+            print("*", end="")
+        print()
+
 # def print_stars(n):
 #     i = 0
 #     while i < n:
@@ -309,8 +310,7 @@ def test_func5():
 #         print()
 #         i += 1
 
-# print_stars(4)
-
+print_stars(4)
 
 
 
