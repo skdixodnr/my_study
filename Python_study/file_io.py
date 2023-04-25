@@ -84,7 +84,7 @@
 # 두 수를 더한 결과를
 # add_result.txt 파일에
 # 저장하는 함수를 정의하세요
-# 함수 이름 : add_wrtie
+# 함수 이름 : add_write
 # def add_write(a, b):
 #     # a + b --> write
 #     result = a + b
