@@ -47,7 +47,7 @@
 #     f.close()
 
 # else
-# 오류가 발새하지 않으면 실해오디는 코드
+# 오류가 발새하지 않으면 실행되는 코드
 # try:
 #     age = int(input("나이: "))
 # except:
@@ -60,14 +60,15 @@
 #         print("미성년자입니다.")
 
 # 예외 발생시키기
-class Bird:
-    def fly(self):
-        raise NotImplementedError
+# class Bird:
+#     def fly(self):
+#         raise NotImplementedError
 
-my_bird = Bird()
-my_bird.fly()
+# my_bird = Bird()
+# my_bird.fly()
 
 # my_calculator
+
 
 
 
