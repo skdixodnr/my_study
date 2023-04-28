@@ -295,24 +295,22 @@ def test_func5():
 ***
 ****
 """
-def print_stars(n):
-    for i in range(n): # 0 ~ n-1
-        for j in range(i+1): # 0 ~ i
-            print("*", end="")
-        print()
-
 # def print_stars(n):
-#     i = 0
-#     while i < n:
-#         j = 0
-#         while j < i+1:
+#     for i in range(n): # 0 ~ n-1
+#         for j in range(i+1): # 0 ~ i
 #             print("*", end="")
 #         print()
-#         i += 1
 
-print_stars(4)
+# # def print_stars(n):
+# #     i = 0
+# #     while i < n:
+# #         j = 0
+# #         while j < i+1:
+# #             print("*", end="")
+# #         print()
+# #         i += 1
 
-
+# print_stars(4)
 
 
 

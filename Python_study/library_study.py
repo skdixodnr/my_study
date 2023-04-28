@@ -81,12 +81,12 @@
 # 시작~끝 사이의 정수 중 난수 값
 # random_value = random.randint(1, 10)
 # print(random_value)
-
+import random
 # random.choice(리스트)
 # 리스트의 요소 중 무작위로 하나를 리턴
-# foods = ["서브웨이", "맥도날드", "짜장면", "국밥", "김치찌개"]
-# food = random.choice(foods)
-# print(food)
+foods = ["김밥세상", "편의점", "롯데리아", "서브웨이", ""]
+food = random.choice(foods)
+print(food)
 
 # li = [1, 2, 3, 4, 5]
 # random.shuffle(li)
