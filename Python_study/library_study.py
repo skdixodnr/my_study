@@ -96,13 +96,13 @@ print(food)
 # random.shuffle(li)
 # print(li)
 
-# lotto_numbers = list(range(1, 46))
-# my_lotto = []
-# for i in range(6):
-#     random_value = random.choice(lotto_numbers)
-#     if random_value not in my_lotto:
-#         my_lotto.append(random_value)
-# print(my_lotto)
+lotto_numbers = list(range(1, 46))
+my_lotto = []
+for i in range(6):
+    random_value = random.choice(lotto_numbers)
+    if random_value not in my_lotto:
+        my_lotto.append(random_value)
+print(my_lotto)
 
 # in 연산자
 # a in b

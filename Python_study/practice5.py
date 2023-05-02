@@ -6,16 +6,13 @@
 # 반환 값 : True 또는 False
 
 
-def is_palindrome(input_string):
-    input_string = input_string.replace(" ", "") # 문자열 중간에 있는 공백을 제거
+# def is_palindrome(input_string):
+    # input_string = input_string.replace(" ", "") # 문자열 중간에 있는 공백을 제거
     # length = len(input_string)
     # for i in range(length//2):
     #     if input_string[i] != input_string[length - 1 - i]:
     #         return False
     # return True
-    return input_string == input_string[::-1] # [::-1] --> 슬라이싱을 거꾸로 한다.
+    # return input_string == input_string[::-1] # [::-1] --> 슬라이싱을 거꾸로 한다.
 
-print(is_palindrome("다시 합창합시다"))
-
-
-
+# print(is_palindrome("다시 합창합시다"))
