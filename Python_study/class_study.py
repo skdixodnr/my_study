@@ -67,12 +67,12 @@ li.append(6)
 # print(s1.rstrip())
 # split()
 # 구분자로 분할하여 리스트로 반환
-# s2 = "Hello,world,Python"
-# print(s2.split(','))
+s2 = "abcde"
+print(s2.split())
 # replace()
 # 문자열의 특정 부분을 대체
 # print(s2.replace(',', ' '))
-# s2 = s2.replace(',', ' ')
+# s2 = s2.replace(',','\n')
 # print(s2)
 
 # "Hello" --> "hello"

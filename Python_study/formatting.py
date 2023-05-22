@@ -26,3 +26,7 @@ int1 = 3
 float1 = 1.2345
 result = f"{string1} {int1} {float1}"
 print(result)
+
+
+
+

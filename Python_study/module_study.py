@@ -35,7 +35,7 @@ class ZeroCalculator(MyCalculator):
             print(f"{n1} / {n2} = {n1/n2}")
 
 zero_calculator = ZeroCalculator()
-zero_calculator.div(10, 0)
+zero_calculator.div(10, 2)
 
 
 

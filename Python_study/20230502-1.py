@@ -89,9 +89,10 @@
 
 # lambda x : x + 2
 
-# func2 = lambda x : x + 2
-# c = func2(2)
-# print (c)
+func2 = lambda x : x + 2
+c = func2(2)
+print (c)
+
 
 # map(함수 자료형)
 # items = [1, 2, 3, 4, 5]
@@ -248,8 +249,8 @@ arr = np.array([[1,2,3],[4,5,6]])
 
 # print(arr + arr3) # x
 
-# arr_1 = np.array([1,2,3])
-# print(arr_1 + arr_1)
+arr_1 = np.array([1,2,3])
+print(arr_1 + arr_1)
 
 
 # dtype
@@ -284,9 +285,17 @@ arr = np.array([[1,2,3],[4,5,6]])
 
 
 
+# import numpy as np
+# arr2d = np.arange(20).reshape(4,-1)
+# print(arr2d)
 
+# print(arr2d[:3,:2])
 
+# import random
+# print(random.randint(-3,3,10))
 
+# result1 = input().replace(" ", "")
+# print(result1)
 
 
 

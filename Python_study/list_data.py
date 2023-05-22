@@ -39,7 +39,7 @@ li_4 = [1, 2, 3]
 li_4.append(4)
 li_4.append("문자")
 li_4.append([1,2,3])
-# print(li_4)
+print(li_4)
 
 # insert(인덱스, 원소)
 # 인덱스 위치에 원소 삽입
@@ -102,7 +102,7 @@ cnt = li.count(2)
 li_1 = [1, 2, 3]
 li_2 = [4, 5, 6]
 # print(li_1 + li_2) # [1, 2, 3, 4, 5, 6]
-li_1.extend(li_2) 
+# li_1.extend(li_2) 
 # print(li) # [1, 2, 3, 4, 5, 6]
 
 # * 연산자
@@ -111,9 +111,15 @@ li_1.extend(li_2)
 # print(li * 3) # [1, 2, 3, 1, 2, 3, 1, 2, 3]
 
 
+li1 = "ACEB"
+li2 = "ac"
+a1 = li1.upper()
+a2 = li2.upper()
+a3 = li1.count(a2)
+print(a3)
 
-
-
+li2 = li1.lower()
+print(li2)
 
 
 

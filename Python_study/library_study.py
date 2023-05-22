@@ -62,12 +62,12 @@
 
 # math
 # 수학 관련
-# import math
-# result = math.ceil(1.1)
-# print(result)
-# result = math.floor(1.9)
-# print(result)
-# print(math.pi)
+import math
+result = math.ceil(1.1)
+print(result)
+result = math.floor(1.9)
+print(result)
+print(math.pi)
 
 # random
 # 난수 관련

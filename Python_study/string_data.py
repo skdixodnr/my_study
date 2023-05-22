@@ -1,7 +1,7 @@
 # print("안녕하세요."+"반갑습니다.")
 # print("안녕하세요"*5)
 # print("안녕하세요"+10) Error 문자열 + 숫자 
-# print("hello"[0])
+print("hello"[0])
 # print("hello"[1])
 # print("hello"[2])
 print("hello"[3])
