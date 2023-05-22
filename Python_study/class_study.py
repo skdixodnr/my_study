@@ -67,7 +67,8 @@ li.append(6)
 # print(s1.rstrip())
 # split()
 # 구분자로 분할하여 리스트로 반환
-s2 = "abcde"
+s2 = "abcd"
+
 print(s2.split())
 # replace()
 # 문자열의 특정 부분을 대체
