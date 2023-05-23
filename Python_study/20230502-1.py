@@ -249,7 +249,7 @@ arr = np.array([[1,2,3],[4,5,6]])
 
 # print(arr + arr3) # x
 
-arr_1 = np.array([1,2,3])
+arr_1 = np.array([1,2,3,4])
 print(arr_1 + arr_1)
 
 
