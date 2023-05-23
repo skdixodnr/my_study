@@ -15,7 +15,7 @@ import numpy as np
 # print(np.zeros(5))
 # print(np.ones((3,3)))
 # print(np.full((4),5))
-num_list = [1,2,3,4,5]
+num_list = [1,2,3,4]
 num_list.reverse()
 print(num_list)
 
